@@ -1,4 +1,5 @@
-1
+1sort with map
+
 var map = new Map();
 map.set('2-1', "foo");
 map.set('0-1', "bar");
@@ -8,7 +9,7 @@ var mapAsc = new Map([...map.entries()].sort());
 
 console.log(mapAsc)
 
-2for
+2 sort with for loop
 
 var input = [2,3,8,1,4,5,9,7,6];
 
@@ -31,7 +32,7 @@ for (var i = 0, ii = input.length ; i < ii ; i++){
 
 console.log(output);
 
-3foreach
+3 sort with foreach
 
 a = [];
 a[0] = 300;
